@@ -20,3 +20,11 @@ if (is.na(n)) {
 
 #sigma <- sum(seq(to = n))
 #sigma <- ((n + 1)* n) / 2
+
+#original code comes in in the main branch
+#make all your adjustments and push to exercise
+#happens with group assignment, not with our assignment
+#merging is on a commit basis
+#have one person merge
+#if you pull it tells you if theres conflicts
+#now you have single branch
