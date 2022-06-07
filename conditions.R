@@ -1,3 +1,4 @@
+#Class exercises for June 7th, 2022
 # snippets for if conditions
 
 userage <- 15
