@@ -1,5 +1,5 @@
 #page 2 of lec5
-for (i in c(1:5)) {
+for(i in c(1:5)) {
   #do something with i = 1...
   #you do not need to increment i
 }
@@ -9,7 +9,7 @@ myvect <- as.numeric(strsplit(as.character(mynum), split = NULL))
 mysum <- 0
 #describe for loop
 #for (i in 1:nrow(df))
-for (i in 1:3) {
+for(i in 1:3) {
   mysum <- mysum + myvect[i]^3
   #if you do i <- 12345, when you go back to the loop, it is still going to be 2(not affected)
   #use {} at all times 
@@ -33,7 +33,7 @@ apply(df[, 3:n], 2, stdev) #3rd to nth column?
 repeat {
   mynum <- readline(prompt = "Please enter a number: ")
   mynum <- as.numeric(mynum)
-  if (is.na(mynum)) {
+  if(is.na(mynum)) {
     print("Error")
   } else {
     break
@@ -42,7 +42,7 @@ repeat {
 
 mynum <- readline(prompt = "Please enter a number: ")
 mynum <- as.numeric(mynum)
-while (is.na(mynum)) {
+while(is.na(mynum)) {
   print("Error")
   mynum <- readline(prompt = "Please enter a number: ")
   mynum <- as.numeric(mynum)
